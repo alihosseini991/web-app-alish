@@ -1,7 +1,7 @@
 const displayTelegramObject = document.querySelector(".main-button");
 
 function sendHandler() {
-    Telegram.WebApp.close();
+    Telegram.WebApp.sendData("alish");
 }
 
 displayTelegramObject.addEventListener("click", sendHandler);

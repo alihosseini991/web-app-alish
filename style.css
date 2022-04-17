@@ -4,5 +4,13 @@ body {
     margin: 0;
     padding: 25px 0 0 0;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#telegram-objects {
+    margin-top: 25px;
+    width: 300px;
+    display: block;
+    line-height: 35px;
 }

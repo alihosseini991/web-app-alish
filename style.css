@@ -5,12 +5,11 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 14px;
     font-weight: 100;
     font-family: "Source Code Pro";
-    color: gray;
-    height: 100vh;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
 }
 
 input,
@@ -44,18 +43,11 @@ button {
     width: 100px;
     padding: 10px;
     border-radius: 8px;
-    background-color: tomato;
+    background-color: var(--tg-theme-button-color);
     transition: all 0.6s ease;
-    color: white;
+    color: var(--tg-theme-button-text-color);
     border: none;
     opacity: 0.8;
-    cursor: pointer;
-}
-
-.main-input:hover,
-.main-input:focus {
-    border-color: tomato;
-    box-shadow: 0 5px 10px rgba(255, 99, 71, 0.164);
 }
 
 .main-button:hover,

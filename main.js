@@ -1,3 +1,4 @@
+Telegram.WebApp.ready();
 const mainButton = document.querySelector(".main-button");
 const mainInput = document.querySelector(".main-input");
 

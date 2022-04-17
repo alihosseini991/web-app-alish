@@ -1,7 +1,8 @@
-const displayTelegramObject = document.querySelector(".main-button");
+const mainButton = document.querySelector(".main-button");
+const mainInput = document.querySelector(".main-input");
 
 function sendHandler() {
-    Telegram.WebApp.sendData("alish");
+    Telegram.WebApp.sendData(mainInput.value);
 }
 
-displayTelegramObject.addEventListener("click", sendHandler);
+mainButton.addEventListener("click", sendHandler);
